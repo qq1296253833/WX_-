@@ -9,5 +9,5 @@
 
 # 小程序界面部分展示
 <image src="http://m.qpic.cn/psc?/V50riWpY341z0H2kM4RT1zqjNe1PHUUQ/45NBuzDIW489QBoVep5mcQUf5Ypr9LVJVcRilN7exWt3diwkUhChgULhbl.c25hyXaM4Dp7nmvJp6hITwkaOEqMYbXE3hNo6.IZx0yRoVD8!/b&bo=egHAAwAAAAABF4g!&rf=viewer_4">
-  <image src="http://m.qpic.cn/psc?/V50riWpY341z0H2kM4RT1zqjNe1PHUUQ/45NBuzDIW489QBoVep5mcQUf5Ypr9LVJVcRilN7exWsFjaQFC5.fB4Zb.OsOtMmdPmRzHI.fIsxFS9jL1zfYeXhEP0qXu39Owp2hf3oHkOE!/b&bo=dgOABwAAAAABF8I!&rf=viewer_4">
+  <image width:200px src="http://m.qpic.cn/psc?/V50riWpY341z0H2kM4RT1zqjNe1PHUUQ/45NBuzDIW489QBoVep5mcQUf5Ypr9LVJVcRilN7exWsFjaQFC5.fB4Zb.OsOtMmdPmRzHI.fIsxFS9jL1zfYeXhEP0qXu39Owp2hf3oHkOE!/b&bo=dgOABwAAAAABF8I!&rf=viewer_4">
     <image src="http://m.qpic.cn/psc?/V50riWpY341z0H2kM4RT1zqjNe1PHUUQ/45NBuzDIW489QBoVep5mcZMai7iguhsYTiovXXORwMFG.3lVFaO6h9TYPoivlmSylvww6f9fj73O4R4jqBKfCR3ldfIhuy0IJ01Hh.vRTlM!/b&bo=pwKABwAAAAABJyI!&rf=viewer_4">
