@@ -1,0 +1,27 @@
+<view class="item-header">
+  <view class="item-title">{{itemTitle}}</view>
+  <view class="detail">
+    <view class="left-detail">
+      <view class="item-rate">
+        <stars rate="{{itemRate}}" fontSize="30" starSize="30" fontColor="#e4e4e4"></stars>
+        <view class="item-persons">25952人评价</view>
+      </view>
+      <view class="item-detail">
+        <view class="item-type item-review">
+          {{itemDetail.item_type}}
+        </view>
+        <view class="item-time item-review">
+          {{itemDetail.item_time}}
+        </view>
+        <view class="item-actors item-review">
+          {{itemDetail.item_actors}}
+        </view>
+      </view>
+    </view>
+    <view class="right-detail">
+      <view class="item-image">
+        <image class="item-thumbnail" src="{{itemImage}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!-- 组件searchbar，通过配置的属性值是否变成可点击状态即navigator跳转 -->
+<searchbar isnavigator="{{true}}"></searchbar>
+<view class="title-top">{{title}}</view>
+<view class="container">
+  <!-- 组件 itemview -->
+  <itemView wx:for="{{movies}}" wx:key="*this" item="{{item}}"></itemView>
+</view>

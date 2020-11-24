@@ -1,0 +1,15 @@
+<view wx:for="{{comments}}" wx:key="*this" class="item-comment">
+    <view class="user-image">
+      <image src="{{item.user_image_src}}" class="user-image-thumbnail"></image>
+    </view>
+    <view class="comment-detail-group">
+      <view class="user-rate">
+        <view class="user-name">{{item.user_name}}</view>
+        <stars starSize="35" rate="{{item.user_rate}}" fontSize="0"></stars>
+      </view>
+      <view class="user-comment-time">{{item.user_time}}</view>
+      <view class="user-comment">
+        {{item.user_comment}}
+      </view>
+    </view>
+  </view>

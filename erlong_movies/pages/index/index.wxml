@@ -1,0 +1,9 @@
+<searchbar isnavigator="{{true}}"></searchbar>
+<!-- 电影 -->
+<indexModule title="电影" items="{{movies}}" moreUrl="/pages/list/list?type=movie"></indexModule>
+
+<!-- 电视剧 -->
+<indexModule title="电视剧" items="{{tvs}}" moreUrl="/pages/list/list?type=tv"></indexModule>
+
+<!-- 综艺 -->
+<indexModule title="综艺" items="{{shows}}" moreUrl="/pages/list/list?type=show"></indexModule>

@@ -1,0 +1,20 @@
+<view class="container">
+  <view bind:tap="onItemTapEvent" class="item-group">
+    <view class="item-image">
+      <image class="item-image-thumbnail" src="{{image_src}}"></image>
+    </view>
+    <view class="item-title">{{title}}</view>
+    <view class="item-rate">{{rate}}分</view>
+  </view>
+
+  <view class="comment-title">全部影评({{totalCount}})</view>
+
+  <userComment comments="{{currentComments}}"></userComment>
+
+  <view class="page-btn-group">
+
+    <view bindtap="onPrePageBtn" class="page-btn" hover-class="hover-page-btn">上一页</view>
+
+    <view bindtap="onNextPageBtn" class="page-btn" hover-class="hover-page-btn">下一页</view>
+  </view>
+</view>

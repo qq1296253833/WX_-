@@ -1,0 +1,57 @@
+.item-header{
+  padding:20rpx;
+  margin-top:40rpx;
+}
+.item-title{
+  font-size:45rpx;
+}
+
+.detail{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.detail .left-detail{
+  margin-right: 15rpx;
+}
+
+.item-rate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-persons{
+  margin-left:20rpx;
+  font-size:30rpx;
+  color:#e4e4e4;
+}
+.item-detail{
+  margin-top:20rpx;
+  width: 500rpx;
+ 
+  
+}
+
+.item-review{
+  margin-bottom:8rpx;
+  
+}
+
+.item-detail .item-actors{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+
+
+
+.item-image{
+  height:270rpx;
+  width:180rpx;
+}
+ 
+.item-image .item-thumbnail{
+  height: 100%;
+  width:100%;
+}

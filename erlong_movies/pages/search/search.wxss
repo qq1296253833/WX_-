@@ -1,0 +1,111 @@
+/* 搜索页面 */
+.item-list-group{
+  padding:20rpx 30rpx;
+}
+
+.item-group{
+  display: flex;
+  justify-content: flex-start;
+  padding:10rpx 0 15rpx 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.item-group .thumbnail{
+  width: 85rpx;
+  height: 110rpx;
+  margin-right: 20rpx;
+}
+
+.item-group .item-info-group{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-info-group .item-title{
+  font-size:32rpx;
+}
+.item-info-group .item-info{
+  font-size:28rpx;
+  color:#747474;
+}
+
+/* error-page */
+
+.error-page-group{
+  padding:40rpx 60rpx;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.error-page-group .error-title{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 70rpx;
+}
+.error-page-group .error-info{
+  font-size:28rpx;
+}
+
+.error-page-group .error-image{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  margin-top:40rpx;
+}
+
+ .thumbnail{
+  height:400rpx;
+  width:320rpx;
+}
+
+/* 历史记录页面 */
+.history-list-group{
+  padding:0 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-title-group{
+  display: flex;
+  justify-content: space-between;
+  font-size:28rpx;
+  color: #747474;
+  padding:20rpx 0;
+  background-color: #f9f9f9;
+}
+
+/* 点击清除按钮 */
+.click{
+  color:#5eb36e;
+}
+
+.history-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.history-list .history-item-group{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e4e4;
+ 
+}
+
+.history-item-group .delete-item{
+  font-size:28rpx;
+  color:#747474;
+  padding:25rpx 0;
+}
+
+.history-list .history-item{
+  flex:1;
+  font-size:32rpx;
+  padding:25rpx 0;
+  
+}
+

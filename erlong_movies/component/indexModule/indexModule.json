@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "stars":"/component/stars/stars",
+    "itemView":"/component/itemView/itemView"
+  }
+}

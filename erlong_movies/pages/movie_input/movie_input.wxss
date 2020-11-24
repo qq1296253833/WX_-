@@ -1,0 +1,14 @@
+.movie-group{
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  padding:20rpx;
+}
+.movie-group .editText{
+  background-color: #fff;
+  border-bottom:1px solid #e4e4e4 ;
+  width: 100%;
+  margin-bottom: 10rpx;
+  border-radius:10rpx;
+  
+}

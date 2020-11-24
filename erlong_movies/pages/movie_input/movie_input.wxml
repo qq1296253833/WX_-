@@ -1,0 +1,17 @@
+<!--pages/movie_input/movie_input.wxml-->
+<form bindsubmit="submitEvent">
+  <view class="movie-group">
+
+
+    <textarea class="editText" name="movie_title" placeholder="电影名称"></textarea>
+
+
+    <textarea class="editText" name="movie_image_src" placeholder="电影海报地址"></textarea>
+
+
+
+    <textarea class="editText" name="movie_rate" placeholder="电影分数"></textarea>
+  </view>
+  
+  <button style="margin-top:20rpx" form-type="submit" type="primary">提交</button>
+</form>

@@ -1,0 +1,10 @@
+<view class="module-group">
+  <view class="module-group-top">
+    <view class="top-title">{{title}}</view>
+    <navigator style="font-size:30rpx;color:green" url="/pages/movie_input/movie_input">跳转后台</navigator>
+    <navigator url="{{moreUrl}}" class="top-more">更多</navigator>
+  </view>
+  <scroll-view class="scroll-view" scroll-x="{{true}}">
+    <itemView wx:for="{{items}}" wx:key="*this" item="{{item}}"  ></itemView>
+  </scroll-view>
+</view>

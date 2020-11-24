@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "itemDetail":"/component/itemDetail/itemDetail",
+    "stars":"/component/stars/stars",
+    "userComment":"/component/userComment/userComment"
+  }
+}

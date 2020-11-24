@@ -1,0 +1,28 @@
+/* component/indexModule/indexModule.wxss */.module-group{
+  padding:40rpx;
+  background-color: #fff;
+}
+
+.module-group .module-group-top{
+  
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.module-group-top .top-title{
+  color:#494949;
+}
+
+.module-group-top .top-more{
+  color:#41be57;
+}
+
+.module-group .scroll-view{
+  margin-top: 30rpx;
+  width:100%;
+  height:400rpx;
+  white-space: nowrap;
+}
+
+
+

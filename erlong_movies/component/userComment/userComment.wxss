@@ -1,0 +1,47 @@
+
+
+.item-comment{
+  margin-top:20rpx;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 30rpx;
+}
+
+.item-comment .user-image{
+  
+  height: 100%;
+  
+}
+.user-image .user-image-thumbnail{
+  height:50rpx;
+  width:50rpx;
+} 
+
+.comment-detail-group{
+  margin-left:20rpx;
+}
+
+.comment-detail-group .user-rate{
+  display: flex;
+}
+
+.user-rate .user-name{
+  margin-right:10rpx;
+}
+.comment-detail-group .user-comment-time{
+
+  font-size:25rpx;
+  color:#b3b3b3;
+}
+.comment-detail-group .user-comment{
+  margin-top:15rpx;
+  font-size:28rpx;
+}
+
+.more-comment{
+  padding:20rpx;
+  text-align: center;
+  font-size:36rpx;
+  color:#41be57;
+}

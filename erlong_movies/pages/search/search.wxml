@@ -1,0 +1,42 @@
+<!-- 搜索框 -->
+<searchbar bindsearchInput="searchInputEvent"></searchbar>
+
+<!-- 搜索页面 -->
+<view wx:if="{{isItemShow}}" class="item-list-group">
+  <view wx:for="{{showItems}}" wx:key="*this" class="item-group" bindtap="onItemTapEvent" data-title="{{item.title}}">
+    <image src="{{item.image_src}}" class="thumbnail"></image>
+    <view class="item-info-group">
+      <view class="item-title">{{item.title}}</view>
+      <view class="item-info">{{item.info}}</view>
+    </view>
+  </view>
+</view>
+
+<!-- 无法通过关键词找到页面，error页面 -->
+<view wx:else>
+  <view class="error-page-group">
+    <view class="error-title">搜索:{{error_title}}</view>
+    <view class="error-info">没有找到关于{{error_title}}的电影，换个搜索词试试吧。</view>
+    <view class="error-image">
+      <image class="thumbnail"
+        src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2444711798,2505648604&fm=26&gp=0.jpg"></image>
+    </view>
+  </view>
+</view>
+
+<!-- 搜索页面的历史记录页面 -->
+<view wx:if="{{histories.length > 0 && !showItems}}" class="history-list-group">
+  <view class="history-title-group">
+    <view class="history-title">历史记录</view>
+    <view class="history-delete" bindtap="onClearStorageEvent" hover-class="click">清除</view>
+  </view>
+
+  <view class="history-list">
+    <view wx:for="{{histories}}" class="history-item-group">
+      <navigator url="/pages/details/details?name={{item}}" class="history-item">{{item}}</navigator>
+      <view class="delete-item" bindtap="onDeleteItemEvent" data-title="{{item}}">
+        <view hover-class="click">删除</view>
+      </view>
+    </view>
+  </view>
+</view>

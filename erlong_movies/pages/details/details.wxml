@@ -1,0 +1,21 @@
+<!-- 电影详情 -->
+<itemDetail itemTitle="{{item_detail.title}}" itemImage="{{item_detail.image_src}}" itemRate="{{item_detail.rate}}"
+  itemDetail="{{item_detail.review}}">
+</itemDetail>
+
+
+<!-- 标签 -->
+<view class="item-tags">
+  <view class="item-tags-title">豆瓣成员常用标签</view>
+  <view class="item-tags-list">
+    <text wx:for="{{item_detail.tags}}">{{item}}</text>
+  </view>
+</view>
+
+<!-- 评论 -->
+<view class="item-comment-group">
+  <view class="item-comment-persons">短评(89429)</view>
+  <userComment comments="{{comments}}"></userComment>
+</view>
+
+<navigator url="/pages/moreComment/moreComment?image_src={{item_detail.image_src}}&title={{item_detail.title}}&rate={{item_detail.rate}}" class="more-comment">查看更多短评</navigator>
